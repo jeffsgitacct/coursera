@@ -1,0 +1,12 @@
+{
+	"name": "adventureworks",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqlserver0udemy.database.windows.net;initial catalog=adventureworks0udemy;user id=sqladmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDM3ODNGQjQ1LURBNTgtNDQ3Mi04RUNDLTA3RDhGMDFFOEZGQ19iZTE4MmQxZS0yMDM2LTRlMjEtYmExZC0xNmUxMzllOWI1YjEiDQp9"
+		}
+	}
+}

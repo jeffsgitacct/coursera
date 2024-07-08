@@ -1,0 +1,12 @@
+{
+	"name": "mian0udemy0datalake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://main0udemy0datalake.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDM3ODNGQjQ1LURBNTgtNDQ3Mi04RUNDLTA3RDhGMDFFOEZGQ18yNjIyY2M2MC1kYzM4LTQxMjMtYmU0NS04N2U0MmRlNWJjNTQiDQp9"
+		}
+	}
+}

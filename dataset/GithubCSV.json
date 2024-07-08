@@ -1,0 +1,21 @@
+{
+	"name": "GithubCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mian0udemy0datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "githubproducts",
+				"fileSystem": "processing"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
