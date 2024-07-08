@@ -1,0 +1,56 @@
+{
+	"name": "BranchTest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "mian0udemy0datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "processing"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "SalesOrderNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "SalesOrderLineNumber",
+				"type": "UTF8"
+			},
+			{
+				"name": "OrderDate",
+				"type": "UTF8"
+			},
+			{
+				"name": "CustomerName",
+				"type": "UTF8"
+			},
+			{
+				"name": "EmailAddress",
+				"type": "UTF8"
+			},
+			{
+				"name": "Item",
+				"type": "UTF8"
+			},
+			{
+				"name": "Quantity",
+				"type": "UTF8"
+			},
+			{
+				"name": "UnitPrice",
+				"type": "UTF8"
+			},
+			{
+				"name": "TaxAmount",
+				"type": "UTF8"
+			}
+		]
+	}
+}

@@ -53,7 +53,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "GithubCSV",
+						"referenceName": "BranchTest",
 						"type": "DatasetReference"
 					}
 				]
